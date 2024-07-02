@@ -1,0 +1,62 @@
+.projects {
+    padding: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    background-color: #1e1e1e; /* Dark grey background */
+}
+
+.projects-overlay {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent overlay */
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%; /* Ensures overlay covers the full width */
+    max-width: 1200px; /* Ensures content doesn't stretch too wide on large screens */
+    margin: 0 auto; /* Centers the overlay content */
+}
+
+.projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #ffcc00; /* Gold color */
+}
+
+.project-slider .slick-slide {
+    display: flex !important; /* Ensure slides are displayed as flex */
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    background: linear-gradient(135deg, #454545 0%, #1e1e1e 100%); /* Gradient background in shades of grey */
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 80%; /* Adjust width for better fit */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #eae0e0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #ffcc00; /* Gold color */
+}
+
+.project p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #eae0e0; /* Light grey color */
+}

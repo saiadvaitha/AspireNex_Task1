@@ -1,0 +1,54 @@
+.about {
+    padding: 2rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+  }
+  
+  .about-overlay {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent overlay */
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #ffcc00; /* Gold color */
+    text-align: center;
+  }
+  
+  .about-content {
+    text-align: left;
+  }
+  
+  .about-content p, .about-content ul {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .about-content strong {
+    color: #ffcc00; /* Gold color */
+  }
+  
+  .about-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-content li {
+    margin-bottom: 1rem;
+  }
+  
+  .about-content li::before {
+    content: "•";
+    color: #ffcc00; /* Gold color */
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1rem;
+  }
+  

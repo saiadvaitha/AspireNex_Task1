@@ -1,0 +1,54 @@
+.home {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .home-content {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent overlay */
+    padding: 2rem;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .home h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: #ffcc00; /* Gold color */
+  }
+  
+  .home h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #ffcc00; /* Gold color */
+  }
+  
+  .slick-slide h3 {
+    font-size: 1.5rem;
+    color: #ffcc00; /* Gold color */
+  }
+  
+  .slick-slide p {
+    font-size: 1.1rem;
+    color: #fff;
+  }
+  
+  .slick-dots li button:before {
+    color: #ffcc00; /* Gold color for dots */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #ff6f61; /* Active dot color */
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    color: #ffcc00; /* Arrow color */
+  }
+  

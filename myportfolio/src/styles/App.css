@@ -1,0 +1,64 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-wrap: normal;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Ensure each section takes full viewport height */
+section {
+  height: 100vh;
+  overflow-y: auto; /* Enable scrolling only within sections if content exceeds viewport */
+}
+
+/* Example styling for 'about' section */
+.about {
+  padding: 2rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.about-overlay {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent overlay */
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.about-content ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+
+.about-content li {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
